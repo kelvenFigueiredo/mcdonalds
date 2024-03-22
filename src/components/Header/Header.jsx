@@ -1,17 +1,17 @@
 import React from "react";
-import { NavBar } from "./Header-styled";
+import { NavBar, Logo, Buttons } from "./Header-styled";
 
 const Header = () => {
   return (
     <>
       <NavBar>
-        <div>
-          <h1>Logo</h1>
-        </div>
-        <div>
+        <Logo>
+           <h1>Logo</h1>
+        </Logo>
+        <Buttons>
           <button>sim</button>
           <button>não</button>
-        </div>
+        </Buttons>
       </NavBar>
     </>
   );
