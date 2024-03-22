@@ -1,5 +1,8 @@
 import React from 'react'
-import { SectionOne, SectionTop, SectionBottom, Aside, ParagraphOne,BoxArea, Boxs, SectionTwo, ParagraphTwo, Cards } from './Main-styled'
+import { SectionOne, SectionTop, SectionBottom, Aside, ParagraphOne, Text,BoxArea, Boxs, SectionTwo, ParagraphTwo, Cards, Span } from './Main-styled'
+import BigMac from './../../assets/img/bigmac.png'
+import Batata from './../../assets/img/batata.svg'
+import Sorvete from './../../assets/img/sorvete.svg'
 
 const Main = () => {
   return (
@@ -7,29 +10,29 @@ const Main = () => {
       <SectionOne>
         <SectionTop>
           <Aside>
-            Lorem 
+            <img src={BigMac} alt="BigMac" /> 
           </Aside>
           <ParagraphOne>
-            Lorem ipsum 
+            <Text>bateu aquela <br/><Span>#fome</Span> de <Span>méqui?</Span></Text>
           </ParagraphOne>
         </SectionTop>
         <SectionBottom>
           <BoxArea>
             <Boxs>
-
+            
             </Boxs>
             <Boxs>
-              
+              <img src={Batata} alt="Batata" />
             </Boxs>
             <Boxs>
-
+              <img src={Sorvete} alt="Sorvete" />
             </Boxs>
           </BoxArea>
         </SectionBottom>
       </SectionOne>
       <SectionTwo>
         <ParagraphTwo>
-          Lorem ipsum 
+          promoção 
         </ParagraphTwo>
         <Cards>
 

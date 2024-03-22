@@ -1,12 +1,13 @@
 import React from "react";
 import { NavBar, Logo, Buttons } from "./Header-styled";
+import Logotipo from './../../assets/img/logo.png'
 
 const Header = () => {
   return (
     <>
       <NavBar>
         <Logo>
-           <h1>Logo</h1>
+           <img src={Logotipo} alt="Logotipo" />
         </Logo>
         <Buttons>
           <button>sim</button>

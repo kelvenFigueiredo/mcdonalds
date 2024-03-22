@@ -3,20 +3,18 @@ import styled from "styled-components";
 export const SectionOne = styled.section`
     width: 100%;
     height: 520px;
-    border: 1px solid black;
+
     background-color: #FFC72C;
 ;
 `
 export const SectionTop = styled.section`
     width: 100%;
-    height: 65%;
-    border: 1px solid black;
+    height: 70%;
     display: inline-flex;
 `
 export const SectionBottom = styled.section`
     width: 100%;
-    height: 35%;
-    border: 2px solid blue;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +23,6 @@ export const SectionBottom = styled.section`
 export const Aside = styled.div`
     width: 40%;
     height: 100%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,10 +30,14 @@ export const Aside = styled.div`
 export const ParagraphOne = styled.div`
     width: 60%;
     height: 100%;
-    border: 1px solid green;
     justify-content: center;
     display: flex;
     align-items: center;
+`
+export const Text = styled.h1`
+    color: white;
+    text-transform: capitalize;
+    font-size: 50px;
 `
 export const BoxArea = styled.div`
     width: 50%;
@@ -55,7 +56,7 @@ export const Boxs = styled.div`
 export const SectionTwo = styled.section`
     width: 100%;
     height: 480px;
-    border: 1px solid black;
+
     background-color: #FEB706;
 ;
 `
@@ -70,5 +71,8 @@ export const ParagraphTwo = styled.div`
 export const Cards = styled.div`
     width: 100%;
     height: 70%;
-    border: 1px solid black;
+`
+export const Span = styled.span`
+    color: #DB0007;
+
 `
