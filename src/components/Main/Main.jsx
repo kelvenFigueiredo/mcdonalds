@@ -1,5 +1,5 @@
 import React from 'react'
-import { SectionOne, SectionTop, SectionBottom, Aside, ParagraphOne, Text,BoxArea, Boxs, SectionTwo, ParagraphTwo, Cards, Span } from './Main-styled'
+import { SectionOne, SectionTop, SectionBottom, Aside, ParagraphOne, TextOne,BoxArea, Boxs, SectionTwo, ParagraphTwo, Cards, Span,TextTwo } from './Main-styled'
 import BigMac from './../../assets/img/bigmac.png'
 import Batata from './../../assets/img/batata.svg'
 import Sorvete from './../../assets/img/sorvete.svg'
@@ -13,26 +13,26 @@ const Main = () => {
             <img src={BigMac} alt="BigMac" /> 
           </Aside>
           <ParagraphOne>
-            <Text>bateu aquela <br/><Span>#fome</Span> de <Span>méqui?</Span></Text>
-          </ParagraphOne>
+            <TextOne>bateu aquela <br/><Span>#fome</Span> de <Span>méqui</Span>?</TextOne>
+         </ParagraphOne>
         </SectionTop>
         <SectionBottom>
           <BoxArea>
             <Boxs>
-            
+              <img src={BigMac} alt="BigMac" width={90} height={90} />
             </Boxs>
             <Boxs>
-              <img src={Batata} alt="Batata" />
+              <img src={Batata} alt="Batata"  width={90} height={90} />
             </Boxs>
             <Boxs>
-              <img src={Sorvete} alt="Sorvete" />
+              <img src={Sorvete} alt="Sorvete"  width={90} height={90} />
             </Boxs>
           </BoxArea>
         </SectionBottom>
       </SectionOne>
       <SectionTwo>
         <ParagraphTwo>
-          promoção 
+          <TextTwo>promoção</TextTwo>
         </ParagraphTwo>
         <Cards>
 

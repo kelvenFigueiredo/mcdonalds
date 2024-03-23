@@ -34,7 +34,7 @@ export const ParagraphOne = styled.div`
     display: flex;
     align-items: center;
 `
-export const Text = styled.h1`
+export const TextOne = styled.h1`
     color: white;
     text-transform: capitalize;
     font-size: 50px;
@@ -42,15 +42,17 @@ export const Text = styled.h1`
 export const BoxArea = styled.div`
     width: 50%;
     height: 65%;
-    border: 1px solid violet;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 40px;
 `
 export const Boxs = styled.div`
     width: 90px;
     height: 60px;
-    border: 1px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 `
 export const SectionTwo = styled.section`
@@ -63,7 +65,6 @@ export const SectionTwo = styled.section`
 export const ParagraphTwo = styled.div`
     width: 100%;
     height: 30%;
-    border: 1px solid yellow;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,4 +76,9 @@ export const Cards = styled.div`
 export const Span = styled.span`
     color: #DB0007;
 
+`
+export const TextTwo = styled.h1`
+    color: white;
+    text-transform: capitalize;
+    font-size: 40px;
 `
