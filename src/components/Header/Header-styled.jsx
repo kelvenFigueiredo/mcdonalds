@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NavBar = styled.nav `
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,10 +11,25 @@ export const NavBar = styled.nav `
 export const Logo = styled.div`
     margin-left: 40px;
 `
-export const Buttons = styled.div`
+export const Buttons = styled.section`
     margin-right: 20px;
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
-    width: 120px;
+    width: 390px;
+    height: 50px;
+`
+export const ButtonOne = styled.div`
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+`
+export const ButtonTwo = styled.div`
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFC72C;
+    border-radius: 8px;
+    align-items: center;
+
 `

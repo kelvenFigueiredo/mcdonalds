@@ -1,6 +1,9 @@
 import React from "react";
-import { NavBar, Logo, Buttons } from "./Header-styled";
+import { NavBar, Logo, Buttons, ButtonOne, ButtonTwo } from "./Header-styled";
 import Logotipo from './../../assets/img/logo.png'
+import CelIcon from './../../assets/img/app.svg'
+import CelMequi from './../../assets/img/app(1).svg'
+
 
 const Header = () => {
   return (
@@ -10,8 +13,14 @@ const Header = () => {
            <img src={Logotipo} alt="Logotipo" />
         </Logo>
         <Buttons>
-          <button>sim</button>
-          <button>não</button>
+          <ButtonOne>
+            <img src={CelIcon} alt="Celular" />
+            <span>Baixe o App</span>
+          </ButtonOne>
+          <ButtonTwo>
+            <span><strong>Peça seu Méqui</strong></span>
+            <img src={CelMequi} alt="Celular Méqui" />
+          </ButtonTwo>
         </Buttons>
       </NavBar>
     </>
