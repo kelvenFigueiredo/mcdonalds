@@ -1,12 +1,21 @@
 import React from 'react'
-import { Section } from './Footer-style'
+import { Section,LogoDesc,AppStore } from './Footer-style'
+import Logo from './../../assets/img/logo.png'
+import AppOne from './../../assets/img/pla.png'
+import AppTwo from './../../assets/img/app_store_3x_d293084ca1 1.png'
 
 const Footer = () => {
   return (
     <>
       <Section>
-        <div>logo</div>
-        <div>button</div>
+        <LogoDesc>
+          <img src={Logo} alt="MacLogo"  width={25} height={25}/>
+          <span>© McDonald’s 2024</span>
+        </LogoDesc>
+        <AppStore>
+          <img src={AppOne} alt="Google Play" />
+          <img src={AppTwo} alt="App Store" />
+        </AppStore>
       </Section>
     </>
   )
