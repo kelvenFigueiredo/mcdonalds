@@ -36,7 +36,7 @@ export const ParagraphOne = styled.div`
 `
 export const TextOne = styled.h1`
     color: white;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 50px;
 `
 export const BoxArea = styled.div`

@@ -3,14 +3,18 @@ import { SectionOne, SectionTop, SectionBottom, Aside, ParagraphOne, TextOne,Box
 import BigMac from './../../assets/img/bigmac.png'
 import Batata from './../../assets/img/batata.svg'
 import Sorvete from './../../assets/img/sorvete.svg'
+import { useState } from 'react'
 
 const Main = () => {
+  const[imagem, setImagem] = useState(BigMac)
+
+
   return (
     <>
       <SectionOne>
         <SectionTop>
           <Aside>
-            <img src={BigMac} alt="BigMac" /> 
+            <img src={imagem} alt="BigMac" width={300} height={300}/> 
           </Aside>
           <ParagraphOne>
             <TextOne>bateu aquela <br/><Span>#fome</Span> de <Span>méqui</Span>?</TextOne>
@@ -19,13 +23,13 @@ const Main = () => {
         <SectionBottom>
           <BoxArea>
             <Boxs>
-              <img src={BigMac} alt="BigMac" width={90} height={90} />
+              <img onClick={()=>{setImagem(BigMac)}} src={BigMac} alt="BigMac" width={90} height={90} />
             </Boxs>
             <Boxs>
-              <img src={Batata} alt="Batata"  width={90} height={90} />
+              <img onClick={()=>{setImagem(Batata)}} src={Batata} alt="Batata"  width={90} height={90} />
             </Boxs>
             <Boxs>
-              <img src={Sorvete} alt="Sorvete"  width={90} height={90} />
+              <img onClick={()=>{setImagem(Sorvete)}} src={Sorvete} alt="Sorvete"  width={90} height={90} />
             </Boxs>
           </BoxArea>
         </SectionBottom>

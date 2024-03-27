@@ -6,7 +6,6 @@ export const Section = styled.section`
     align-items: center;
     width: 100%;
     height: 80px;
-    border: 1px solid black;
 `
 
 export const LogoDesc = styled.div`
