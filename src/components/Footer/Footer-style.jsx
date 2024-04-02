@@ -25,3 +25,12 @@ export const AppStore = styled.div`
     height: 40px;
     margin-right: 30px;
 `
+export const Span = styled.span`
+    .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+`
+

@@ -53,6 +53,7 @@ export const Boxs = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
 `
 export const SectionTwo = styled.section`
@@ -81,4 +82,8 @@ export const TextTwo = styled.h1`
     color: white;
     text-transform: capitalize;
     font-size: 40px;
+`
+export const Cardss = styled.div`
+    display: flex;
+    justify-content: space-evenly;
 `

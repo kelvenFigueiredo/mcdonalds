@@ -10,7 +10,9 @@ const Header = () => {
     <>
       <NavBar>
         <Logo>
-           <img src={Logotipo} alt="Logotipo" />
+          <a href="#"> 
+            <img src={Logotipo} alt="Logotipo" />
+          </a>
         </Logo>
         <Buttons>
           <ButtonOne>

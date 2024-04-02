@@ -23,6 +23,7 @@ export const ButtonOne = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 `
 export const ButtonTwo = styled.div`
     width: 50%;
@@ -31,5 +32,5 @@ export const ButtonTwo = styled.div`
     background-color: #FFC72C;
     border-radius: 8px;
     align-items: center;
-
+    cursor: pointer;
 `
