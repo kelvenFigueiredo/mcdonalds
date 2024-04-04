@@ -5,24 +5,24 @@ export const Section = styled.section`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 5vw;
 `
 
 export const LogoDesc = styled.div`
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 250px;
-    height: 40px;
-    margin-left: 30px;
+    width: 16vw;
+    height: 3vw;
+    margin-left: 3vw;
 `
 
 export const AppStore = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 290px;
-    height: 40px;
+    width: 22vw;
+    height: 2vw;
     margin-right: 30px;
 `
 export const Span = styled.span`

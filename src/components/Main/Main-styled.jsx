@@ -2,10 +2,8 @@ import styled from "styled-components";
 
 export const SectionOne = styled.section`
     width: 100%;
-    height: 520px;
-
+    height: 36vw;
     background-color: #FFC72C;
-;
 `
 export const SectionTop = styled.section`
     width: 100%;
@@ -18,7 +16,6 @@ export const SectionBottom = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-
 `
 export const Aside = styled.div`
     width: 40%;
@@ -45,23 +42,20 @@ export const BoxArea = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 3vw;
 `
 export const Boxs = styled.div`
-    width: 90px;
-    height: 60px;
+    width: 7vw;
+    height: 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
 `
 export const SectionTwo = styled.section`
     width: 100%;
-    height: 480px;
-
+    height: 38vw;
     background-color: #FEB706;
-;
 `
 export const ParagraphTwo = styled.div`
     width: 100%;
@@ -76,7 +70,6 @@ export const Cards = styled.div`
 `
 export const Span = styled.span`
     color: #DB0007;
-
 `
 export const TextTwo = styled.h1`
     color: white;
